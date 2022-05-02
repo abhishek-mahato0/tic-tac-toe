@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="practiceof.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="scorex">Score For X : 0</h1>
+        <h1 id="scorey">Score for 0 : 0</h1>
+        <div class="main">
+            <div class="boxes bt bl" id="z" onclick="zero()"><span class="sm"></span></div>
+            <div class="boxes bt" id='o' onclick="one()"><span class="sm" ></span></div>
+            <div class="boxes bt br" id='t' onclick="two()"><span class="sm" ></span></div>
+            <div class="boxes bl " id='h' onclick="three()"><span class="sm"></span></div>
+            <div class="boxes" id='f' onclick="four()"><span class="sm"></span></div>
+            <div class="boxes br" id='i' onclick="five()"><span class="sm"></span></div>
+            <div class="boxes bb bl" id='s' onclick="six()"><span class="sm"></span></div>
+            <div class="boxes bb" id='e' onclick="seven()"><span class="sm"></span></div>
+            <div class="boxes bb br" id='g' onclick="eight()"><span class="sm"></span></div>
+        </div>
+        <div class="resu">
+            <h1 id="final"></h1>
+                
+        </div>
+        <div class="tun">
+            <h2>Turn for X</h2>
+        </div>
+        <div >
+            <button id="btn" onclick="res()" >Play Again</button>
+            <button id="bttn" onclick="rese();mess()">Reset</button>
+        </div>
+    </div>
+<script src="practiceof.js"></script>
+</body>
+</html>

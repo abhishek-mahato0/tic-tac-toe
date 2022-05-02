@@ -1,0 +1,68 @@
+.container{
+    width:90vw;
+    height: 70vh;
+}
+body{
+    background-color:rgb(222, 195, 248);
+    text-align: center;
+    display: flex;
+}
+.main{
+  display: grid;
+  grid-template-rows: repeat(3,10vw);
+  grid-template-columns: repeat(3,10vw);
+  margin-left: 30vw;
+}
+.boxes{
+  border: 1px solid black;
+  font-size:xx-large;
+  align-items: center;
+  font-family: monospace;
+  color:deeppink;
+
+
+}
+.sm{
+  margin: 10px 10px 10px 10px;
+  padding: 10px;
+}
+.boxes:hover{
+  background-color: blanchedalmond;
+  cursor: pointer;
+}
+.bt{
+  border-top:0 ;
+}
+.bb{
+  border-bottom:0 ;
+}
+.br{
+  border-right:0 ;
+}
+.bl{
+  border-left:0 ;
+}
+#scorex{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(44, 87, 1);
+}
+#scorey{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(44, 87, 1);
+}
+.tun{
+  font-size: 20px;
+  color:crimson;
+  font-family:serif;
+}
+button{
+  font-family: fantasy;
+  background-color: rgb(247, 225, 225);
+  margin-right: 2vw;
+  font-weight: bold;
+}
+#final{
+  font-size: xx-large;
+  font-family: sans-serif;
+  color: rgb(99, 197, 2);
+}
